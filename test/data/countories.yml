@@ -1,0 +1,5 @@
+TestData:
+  Countory:
+    loop: <TestData::Const::COUNTORY>
+    col:
+      name: <TestData::Const::COUNTORY>

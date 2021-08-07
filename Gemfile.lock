@@ -53,6 +53,8 @@ GEM
     activerecord (6.1.4)
       activemodel (= 6.1.4)
       activesupport (= 6.1.4)
+    activerecord-import (1.2.0)
+      activerecord (>= 3.2)
     activestorage (6.1.4)
       actionpack (= 6.1.4)
       activejob (= 6.1.4)
@@ -89,6 +91,9 @@ GEM
     nokogiri (1.12.2)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    pokotarou (1.2.3)
+      activerecord-import (>= 1.00)
+      rails (>= 5.0.0)
     racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -141,6 +146,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord_converter!
   mysql2
+  pokotarou
 
 BUNDLED WITH
    1.17.2

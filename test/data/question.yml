@@ -1,0 +1,15 @@
+import':
+  - "./test/data/helper"
+
+TestData:
+  Question:
+    loop: 15
+    col:
+      member_id: F|Member
+      title: <TestData::Const::QUESTION.map{ |m| m[:title] } >
+      content: <TestData::Const::QUESTION.map{ |m| m[:content] } >
+  QuestionTag:
+    loop: 18
+    col:
+      question_id: < TestData::Helper::QuestionTag.get_question_id(maked[:TestData][:Question][:id]) >
+      tag_id: < TestData::Helper::QuestionTag.get_tag_id(maked[:TestData][:Question][:id]) >

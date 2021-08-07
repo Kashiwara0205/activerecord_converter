@@ -1,0 +1,7 @@
+TestData:
+  Member:
+    loop: 100
+    col:
+      name: "登録太郎"
+    option:
+      name: ["add_id"]

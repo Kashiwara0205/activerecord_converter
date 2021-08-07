@@ -1,0 +1,5 @@
+TestData:
+  AnimalType:
+    loop: <TestData::Const::ANIMAL_TYPE>
+    col:
+      name: <TestData::Const::ANIMAL_TYPE>
